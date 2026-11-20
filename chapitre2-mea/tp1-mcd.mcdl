@@ -5,8 +5,8 @@
     {
       "Id": "a475dddc-f00e-4d5e-a1b3-411ce037bc97",
       "Nom": "CLIENT",
-      "X": 210,
-      "Y": 480,
+      "X": 280,
+      "Y": 370,
       "Attributs": [
         {
           "Nom": "Num\u00E9ro",
@@ -28,8 +28,8 @@
     {
       "Id": "26aa5c47-f063-442e-9cf9-74a279b36ec8",
       "Nom": "EMPLOYE",
-      "X": 210,
-      "Y": 110,
+      "X": 150,
+      "Y": 120,
       "Attributs": [
         {
           "Nom": "N\u00B0insee",
@@ -51,7 +51,7 @@
     {
       "Id": "004178f5-7124-43c7-9f08-80c1504cc8c6",
       "Nom": "SERVICE",
-      "X": 590,
+      "X": 620,
       "Y": 100,
       "Attributs": [
         {
@@ -67,5 +67,25 @@
       ]
     }
   ],
-  "Associations": []
+  "Associations": [
+    {
+      "Pattes": [
+        {
+          "EntiteId": "26aa5c47-f063-442e-9cf9-74a279b36ec8",
+          "Cardinalite": "0,1",
+          "Role": ""
+        },
+        {
+          "EntiteId": "004178f5-7124-43c7-9f08-80c1504cc8c6",
+          "Cardinalite": "1,n",
+          "Role": ""
+        }
+      ],
+      "Id": "26c7ef45-746a-4438-bf3f-406971660b58",
+      "Nom": "TRAVAILLER",
+      "X": 400,
+      "Y": 110,
+      "Attributs": []
+    }
+  ]
 }
