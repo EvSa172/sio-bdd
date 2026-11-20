@@ -1,0 +1,71 @@
+{
+  "Nom": "tp1-mcd",
+  "Version": 1,
+  "Entites": [
+    {
+      "Id": "a475dddc-f00e-4d5e-a1b3-411ce037bc97",
+      "Nom": "CLIENT",
+      "X": 210,
+      "Y": 480,
+      "Attributs": [
+        {
+          "Nom": "Num\u00E9ro",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": true
+        },
+        {
+          "Nom": "Nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        },
+        {
+          "Nom": "Pr\u00E9nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        }
+      ]
+    },
+    {
+      "Id": "26aa5c47-f063-442e-9cf9-74a279b36ec8",
+      "Nom": "EMPLOYE",
+      "X": 210,
+      "Y": 110,
+      "Attributs": [
+        {
+          "Nom": "N\u00B0insee",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": true
+        },
+        {
+          "Nom": "Nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        },
+        {
+          "Nom": "Pr\u00E9nom",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        }
+      ]
+    },
+    {
+      "Id": "004178f5-7124-43c7-9f08-80c1504cc8c6",
+      "Nom": "SERVICE",
+      "X": 590,
+      "Y": 100,
+      "Attributs": [
+        {
+          "Nom": "Code",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": true
+        },
+        {
+          "Nom": "D\u00E9signation",
+          "Type": "VARCHAR(50)",
+          "EstIdentifiant": false
+        }
+      ]
+    }
+  ],
+  "Associations": []
+}
